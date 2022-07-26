@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BlueFood</title>
+    <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="divilogotipoSistema">
+        <span id="spanAuxiliar"></span>
+        <a href="">
+          <img src="img/bf_logotipoSistema.png" id="imglogo"/>
+        </a>
+      </div>
+      <div id="divUsuarioLogado">
+        Olá Nome de Usuário!
+        <br/>
+        <img src="img/bf_iconeCarrinho.png" id="imgIconeCarrinho">
+      </div>
+    </header>
+    <br><br>
+<!-- Cabeçalho - Fim -->
+    <div>
+      <h1>É hora de rangar!</h1>
+      <form method="post" action="">
+        <fieldset id="fieldsetFiltros">
+          <input type="text" name="busca" placeholder="Buscar por..."/>
+          <input type="button" value="Procurar"/>
+        </fieldset>
+      </form>
+    </div>
+
+
+    <div id="divCategoriasComidaGeral">
+      <div id="divCategoriasComidasOpcao">
+        <a href="#">
+        <img src="img/sys_categoriaChurrasco.png" id="imgCategoriaComida" /><br>
+        <span>Churrasco</span>
+       </a>
+      </div>
+      <div id="divCategoriasComidasOpcao">
+        <a href="#">
+        <img src="img/sys_categoriaHamburguer.png" id="imgCategoriaComida" /><br>
+        <span>Hamburguer</span>
+       </a>
+      </div>
+      <div id="divCategoriasComidasOpcao">
+        <a href="#">
+        <img src="img/sys_categoriaPizza.png" id="imgCategoriaComida" /><br>
+        <span>Pizza</span>
+       </a>
+      </div>
+      <div id="divCategoriasComidasOpcao">
+        <a href="#">
+        <img src="img/sys_categoriaSalada.png" id="imgCategoriaComida" /><br>
+        <span>Salada</span>
+       </a>
+      </div>
+      <div id="divCategoriasComidasOpcao">
+        <a href="#">
+        <img src="img/sys_categoriaSobremesa.png" id="imgCategoriaComida" /><br>
+        <span>Sobremessa</span>
+       </a>
+      </div>
+    </div>
+    <div>
+      <h1>Resultado</h1>
+      <fieldset>
+        <legend>Filtros</legend>
+        <input type="button" value="Entrega grátis"/><br/>
+        <input type="button" value="Maior preço"/><input type="button" value="Menor preço"><br/>
+        <input type="button" value="Maior taxa"/><input type="button" value="Menor Taxa"><br/>
+        <input type="button" value="Maior tempo"/><input type="button" value="Menor tempo" id="inputSelecionado" /><br/>
+      </fieldset>
+    </div>
+
+    <div>
+      
+       <div id="divRestauranteOpcao">
+           <img src="img/sys_restauranteBubgerKirg.png" id="imgRestauranteOpcao" />
+           <br/>
+           <span id="spanresutaranteOpcao">Nome do resutarante</span>
+           <br/>
+           <span>Categoria de comida </span>
+           <br/>
+           <span>Tempo médio de entrega: 40m</span>
+           <br/>
+           <span>Taxa de entrega: R$15,00</span>
+           <br/>
+         </a>
+       </div>
+       <br/><br/>
+       <div id="divRestauranteOpcao">
+         <a href="">
+           <img src="img/sys_restauranteMCnaldos.png" id="imgRestauranteOpcao" />
+           <br/>
+           <span id="spanresutaranteOpcao">Nome do resutarante</span>
+           <br/>
+           <span>Categoria de comida </span>
+           <br/>
+           <span>Tempo médio de entrega: 40m</span>
+           <br/>
+           <span>Taxa de entrega: R$15,00</span>
+           <br/>
+         </a>
+       </div>
+       <br/><br/>
+       <div id="divRestauranteOpcao">
+         <a href="">
+           <img src="img/sys_restauranteSbubby.png" id="imgRestauranteOpcao" />
+           <br/>
+           <span id="spanresutaranteOpcao">Nome do resutarante</span>
+           <br/>
+           <span>Categoria de comida </span>
+           <br/>
+           <span>Tempo médio de entrega: 40m</span>
+           <br/>
+           <span>Taxa de entrega: R$15,00</span>
+           <br/>
+         </a>
+       </div>
+       <br/><br/>
+
+   </div>
+
+  <input type="button" value="Voltar" onClick="location.href='clienteHome.html';">
+
+   <!-- Rodapé - Início -->
+  </body>
+</html>

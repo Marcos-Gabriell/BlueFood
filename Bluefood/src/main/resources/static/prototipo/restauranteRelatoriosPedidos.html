@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BlueFood</title>
+    <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="divilogotipoSistema">
+        <span id="spanAuxiliar"></span>
+        <a href="">
+          <img src="img/bf_logotipoSistema.png" id="imglogo"/>
+        </a>
+      </div>
+      <div id="divUsuarioLogado">
+        Olá Nome do Usuario!
+      </div>
+    </header>
+    <br><br>
+<!-- Cabeçalho - Fim -->
+
+  <div>
+   <h1>Relatório de pedidos</h1>
+   <fieldset>
+    <legend>Filtros</legend>
+     <label for="numero">Número:</label><br>
+     <input type="text" name="numero" id="numero"><br/>
+     <label for="inicio">Inicío:</label><br/>
+     <input type="date" name="inicio" id="inicio"><br/>
+     <label for="fim">Fim:</label><br/>
+     <input type="date" name="fim" id="fim"><br/>
+     <input type="button" value="Buscar">
+   </fieldset>
+ </div>
+ <br/><br/>
+
+  <table>
+    <tr>
+      <th>Pedido</th>
+      <th>Nome</th>
+      <th>Endereço</th>
+      <th>Valor</th>
+    </tr>
+    <tr>
+      <td><input type="button" value="#34334"></td>
+      <td>Samuel</td>
+      <td>Avenida dos estados 51</td>
+      <td>R$ 95,00</td>
+    </tr>
+    <tr>
+      <td><input type="button" value="#6589"></td>
+      <td>Herique</td>
+      <td>Rua das flores</td>
+      <td>R$ 55,00</td>
+    </tr>
+    <tr>
+      <td><input type="button" value="#7689"></td>
+      <td>Pedro</td>
+      <td>Rua marambá 775</td>
+      <td>R$ 32,00</td>
+    </tr>
+     <tr>
+      <td><input type="button" value="#2479"></td>
+      <td>Ivo</td>
+      <td>Rua gilberto</td>
+      <td>R$ 62,00</td>
+    </tr>
+    <tr>
+      <td><input type="button" value="#9529"></td>
+      <td>Bruno</td>
+      <td>Avenida 31 de março</td>
+      <td>R$ 80,00</td>
+    </tr>
+    <tr>
+      <td><input type="button" value="#3199"></td>
+      <td>Evandro</td>
+      <td>Rua são jose</td>
+      <td>R$ 75,00</td>
+    </tr>
+  </table>
+  <br/><br/>
+
+  <input type="button" value="Voltar" onClick="location.href='restauranteHome.html';">
+
+  <!-- Rodapé - Início -->
+    <br><br>
+  </body>
+</html>
