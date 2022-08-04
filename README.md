@@ -1,7 +1,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-Sistema web que  restaurentes e clientes conseguem realizar seus cadastros.É parecido com  fluxo do  aplicativo como iffod.O cliente realiza seu pedido o restaurante recebe e vai fazendo as auterações no status do pedido
+Sistema web que  restaurentes e clientes conseguem realizar seus cadastros.É parecido com  fluxo do  aplicativo iffod.O cliente realiza seu pedido o restaurante recebe e vai fazendo as auterações no status do pedido
  <img>
 
 </p>
