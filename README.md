@@ -31,7 +31,7 @@ Sistema web que  restaurentes e clientes conseguem realizar seus cadastros.É pa
 
 ## Projeto na web:
 <p>
-Link do projeto na heroku:https: //bluefooddddd-apppppppppppppp.herokuapp.com/
+Link do projeto na heroku:https: https://bluefooddddd-apppppppppppppp.herokuapp.com
 </p>
 
 
