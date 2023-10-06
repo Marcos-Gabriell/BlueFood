@@ -1,6 +1,6 @@
 # Sistema de Pedidos Online semelhante ao iFood
 
-![Screenshot](link_para_screenshot.png)
+
 
 ## Descrição do Projeto 
 
