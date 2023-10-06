@@ -1,38 +1,33 @@
-## Descrição do projeto 
+# Sistema de Pedidos Online semelhante ao iFood
 
-<p align="justify">
-Sistema web que  restaurentes e clientes conseguem realizar seus cadastros.É parecido com  fluxo do  aplicativo iffod.O cliente realiza seu pedido o restaurante recebe e vai fazendo as auterações no status do pedido
- <img>
+![Screenshot](link_para_screenshot.png)
 
-</p>
+## Descrição do Projeto 
 
-
+Este é um sistema web que permite que restaurantes e clientes realizem seus cadastros e interajam em um ambiente semelhante ao fluxo do aplicativo iFood. Os clientes podem fazer pedidos, enquanto os restaurantes recebem esses pedidos e podem atualizar o status de andamento. Além disso, os clientes têm a opção de pagar com cartão, e o sistema inclui uma pasta chamada `sbpay`, que é um serviço web. Se o cartão utilizado iniciar com os números 1111, o pedido é automaticamente aprovado.
 
 ## Funcionalidades
- `Funcionalidade 1:` Realizar cadastro do cliente ou restaurante.
- <br>
- `Funcionalidade 2:` O resturante pode mudar o status de andandamento do pedido.
-  <br>
- `Funcionalidade 3:` O cliente pode pagar  com Cartão.
-  <br>
-  `Funcionalidade 4:` A pasta sbpay e um web servicel,Se o cartão começa com números 1111 será aprovado o pedido.
-  <br>
 
+- **Cadastro de Clientes e Restaurantes**: Permite que clientes e restaurantes realizem seus cadastros na plataforma.
 
-## Ferramentas e tecnolgoias utilizadas
+- **Atualização de Status do Pedido**: Restaurantes podem atualizar o status de andamento dos pedidos, fornecendo aos clientes informações em tempo real sobre o progresso.
 
-- ``Java 13 como linguagem de programação no back-end``
-- ``Spring Boot como Framework na construção da aplicaçao``
-- ``Postman para web service``
-- ``JUnit e Mockito para os testes``
-- ``Eclipse como IDE``
-- ``Html, CSS, JS e Thymeleaf na parte do front-end``
-- ``Heroku para executar o deploy da aplicação``
+- **Pagamento com Cartão**: Os clientes têm a opção de efetuar o pagamento com cartão, proporcionando comodidade e segurança.
 
-## Projeto na web:
-<p>
-Link do projeto na heroku: https://bluefooddddd-apppppppppppppp.herokuapp.com
-</p>
+- **Integração com sbpay**: A pasta `sbpay` contém um serviço web que é utilizado para aprovar pedidos com cartões que começam com o número 1111.
 
+## Ferramentas e Tecnologias Utilizadas
 
-###
+Este projeto foi desenvolvido utilizando as seguintes ferramentas e tecnologias:
+
+- **Java 13**: Linguagem de programação no back-end.
+- **Spring Boot**: Framework utilizado na construção da aplicação.
+- **Postman**: Utilizado para testar o web service.
+- **JUnit e Mockito**: Utilizados para os testes da aplicação.
+- **Eclipse**: IDE utilizada no desenvolvimento.
+- **HTML, CSS, JavaScript e Thymeleaf**: Tecnologias empregadas na parte do front-end.
+- **Heroku**: Plataforma utilizada para o deploy da aplicação.
+
+## Projeto na Web
+
+Você pode acessar o projeto no seguinte link da Heroku: [Projeto no Heroku](https://bluefooddddd-apppppppppppppp.herokuapp.com)
