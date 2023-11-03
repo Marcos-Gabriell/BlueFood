@@ -17,7 +17,6 @@
 
 
 ## Descrição do Projeto 
-
 Este é um sistema web que permite que restaurantes e clientes realizem seus cadastros e interajam em um ambiente semelhante ao fluxo do aplicativo iFood. Os clientes podem fazer pedidos, enquanto os restaurantes recebem esses pedidos e podem atualizar o status de andamento. Além disso, os clientes têm a opção de pagar com cartão, e o sistema inclui uma pasta chamada `sbpay`, que é um serviço web. Se o cartão utilizado iniciar com os números 1111, o pedido é automaticamente aprovado.
 
 ## Funcionalidades
