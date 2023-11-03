@@ -41,6 +41,7 @@ Este projeto foi desenvolvido utilizando as seguintes ferramentas e tecnologias:
 - **HTML, CSS, JavaScript e Thymeleaf**: Tecnologias empregadas na parte do front-end.
 - **Heroku**: Plataforma utilizada para o deploy da aplicação.
 
+
 ## Projeto na Web
 
 Você pode acessar o projeto no seguinte link da Heroku: [Projeto no Heroku](https://bluefooddddd-apppppppppppppp.herokuapp.com) (infelizmente o proejeto nãop esta mais em nuvem, amis vc pode executar ele em sua máquina)
