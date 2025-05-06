@@ -44,4 +44,4 @@ Este projeto foi desenvolvido utilizando as seguintes ferramentas e tecnologias:
 
 ## Projeto na Web
 
-Você pode acessar o projeto no seguinte link da Heroku: [Projeto no Heroku](https://bluefooddddd-apppppppppppppp.herokuapp.com) (infelizmente o proejeto nãop esta mais em nuvem, amis vc pode executar ele em sua máquina)
+Você pode acessar o projeto no seguinte link da Heroku: [Projeto no Heroku](https://bluefooddddd-apppppppppppppp.herokuapp.com) (infelizmente o proejeto não esta mais em nuvem, mais vc pode executar ele em sua máquina)
